@@ -1,54 +1,31 @@
-/* General styles */
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background: linear-gradient(to right, #1e3c72, #2a5298);
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1E3A8A, #3B82F6);
     color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Hero Section */
-.hero {
-    padding: 50px 20px;
-}
-
-h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
 }
 
 button {
-    background: #ffcc00;
+    background-color: #FACC15;
     color: black;
+    padding: 10px 20px;
+    font-size: 16px;
     border: none;
-    padding: 12px 24px;
-    font-size: 1.2rem;
     cursor: pointer;
     transition: 0.3s;
 }
 
 button:hover {
-    background: #ff9900;
-}
-
-/* Features */
-.features {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 30px;
-}
-
-.feature {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 20px;
-    margin: 10px;
-    width: 250px;
-    border-radius: 10px;
-    transition: transform 0.3s;
-}
-
-.feature:hover {
-    transform: scale(1.05);
+    background-color: #FBBF24;
 }
