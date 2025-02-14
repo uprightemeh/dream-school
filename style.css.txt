@@ -1,20 +1,54 @@
+/* General styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    padding: 20px;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
 }
 
-.container {
-    max-width: 600px;
-    margin: auto;
+/* Hero Section */
+.hero {
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
 button {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
+    background: #ffcc00;
+    color: black;
     border: none;
+    padding: 12px 24px;
+    font-size: 1.2rem;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff9900;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.feature {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: scale(1.05);
 }
